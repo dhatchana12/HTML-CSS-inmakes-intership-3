@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.background-color{
+    background: linear-gradient(to bottom, #6699ff 0%, #9966ff 100%);
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.head-one{
+    color: white;
+    font-family: serif;
+    font-size: x-large;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline;
+}
+label{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.letter{
+    font-size: medium;
+    color: red;
+}
+.label-input{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 5px;
+    outline: none;
+    border:1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px;
+}
+.radio{
+    width: 15px;
+    height: 15px;
+}
+.gender{
+    display: flex;
+}
+textarea{
+    width: 300px;
+    height: 80px;
+    outline: none;
+    border:1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px;
+}
+select{
+    outline: none;
+    width: 311px;
+    height: 35px;
+    margin-bottom: 5px;
+    outline: none;
+    border:1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px;
+}
+option{
+    font-family: serif;
+    font-size: large;
+}
+button{
+    outline: none;
+    font-size: x-large;
+    font-family: serif;
+    margin-top: 40px;
+    margin-left: 50px;
+    padding: 10px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px;
+}
+button:hover{
+    color: red;
+    cursor: pointer;
+}
